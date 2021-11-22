@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>Roboto Computers</title>
+</head>
+<body>
+    <h2>mrRoboto</h2>
+
+    <section>
+        <div id="selPrice">
+            <select name="Computers" id="computers" class="select">
+            </select>
+            <span>Price - </span>
+            <span id="price"></span>
+        </div>
+        <div id="input">
+            <input type="number" name="quantity" id="quantity" min="1" value="1">
+            <button id="add" class="button">Add to cart</button>
+        </div>
+    </section>
+
+    <section>
+        <h3>Description:</h3>
+        <p id="description"></p>
+        <p id="specs"></p>
+        <div id="img"></div>
+    </section>
+
+    <h4>Cart:</h4>
+    <ul id="cart"></ul>
+    <p id="total-due">Total Due: 0.0</p>
+    <button id="remove" class="button">Empty Cart</button>
+    <button id="pay" class="button">Pay now</button>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 50px;
+}
+
+#selPrice {
+    padding-bottom: 10px;
+}
+
+.select {
+    padding: 8px 12px;
+    color: #333;
+    background-color: rgb(204, 206, 207);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    min-width: 200px;
+} 
+
+.select:hover {
+    text-decoration: underline;
+}
+
+.button {
+    padding: 8px 12px;
+    color: #333;
+    background-color: rgb(204, 206, 207);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+.button:hover {
+    outline: none;
+    text-decoration: underline;
+}
+
+#quantity {
+    padding: 8px 12px;
+    color: #333;
+    background-color: rgb(204, 206, 207);
+    border: 1px solid #333;
+    font-family: 'Oswald', sans-serif;
+}
